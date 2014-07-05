@@ -1,0 +1,30 @@
+# Install Brew Cask
+install caskroom/cask/brew-cask
+
+# Tap for dev versions. A must-have for Sublime Text 3.
+tap caskroom/versions
+tap caskroom/fonts
+
+# Dev apps
+cask install google-chrome 2> /dev/null
+cask install transmission 2> /dev/null
+cask install spectacle 2> /dev/null
+cask install alfred 2> /dev/null
+cask install sublime-text3 2> /dev/null
+cask install evernote 2> /dev/null
+cask install iterm2 2> /dev/null
+cask install dropbox 2> /dev/null
+cask install messenger-for-telegram 2> /dev/null
+cask install onepassword 2> /dev/null
+cask install the-unarchiver 2> /dev/null
+
+# Media apps
+cask install xbmc 2> /dev/null
+cask install vlc 2> /dev/null
+cask install spotify 2> /dev/null
+
+# Fonts
+cask install font-source-code-pro 2> /dev/null
+
+# Link alfred to these apps
+cask alfred link 2> /dev/null
